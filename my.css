@@ -1,0 +1,134 @@
+
+.main-thing{
+  margin-top: 100px;
+  float: left;
+  width: 33.3%;
+  padding:10px ;
+  box-sizing: border-box;
+}
+
+.text{
+  margin-top: 50px;
+  text-align: center;
+  padding-top: 500px;
+  
+}
+
+.categories{
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.side-dish{
+  margin-top: 100px;
+  display: flex;
+  flex-direction: row;
+  width: 23.3px;
+  justify-content:baseline;
+
+}
+
+.vertical-text{
+  order: 1;
+}
+
+
+.stand-out{
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+
+.wat-er{
+  margin-top: 50px;
+  margin: top 5px; 
+  display: flex;
+  box-sizing: border-box;
+  justify-content: center;
+  justify-content: space-around;
+  width: 80%;
+  max-width: 80%;
+}
+
+.with-human{
+  margin-top: 100px;
+  float: left;
+  box-sizing: border-box;
+}
+
+.content-1{
+  margin-top: 150px;
+  margin-bottom: 100px;
+  float: left;
+  margin-left: 20px;
+  width: 33.3%;
+  padding: 10px;
+  box-sizing: border-box; 
+}
+
+.long{
+  float: center;
+  box-sizing: border-box;
+}
+
+.block{
+  margin-top: 100px;
+  float: left;
+  width: 23.3%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.main-block{
+  margin-top: 50px;
+  margin-bottom: 50px;
+  float: left;
+  width: 43.3%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.last-part{
+  float: left;
+margin-bottom: 100px;
+justify-content: center;
+text-align: center;
+}
+
+.a{
+  float: left;
+  word-spacing: 4em;
+  text-decoration:dimgray;
+  margin-bottom: 70px;
+  justify-content: center;
+
+}
+
+.last-last{
+  margin-top: 50px;
+  float: left;
+  text-align: center;
+  font-size:x-large;
+
+}
+
+.container{
+    border: 1px solid #000;
+    
+    margin: 0 auto;
+    overflow: auto;
+  margin: 0px 50px;
+  justify-content: center;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 600px) {
+  /* Media query for smaller screens */
+  .responsive-text {
+      font-size: 1.5em;
+  }
+}
